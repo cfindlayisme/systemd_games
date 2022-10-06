@@ -1,3 +1,5 @@
+Oct 5, 2022: I now dockerize everything because I'm too darn lazy. This is no longer updated, but you can probably find start lines in my dockerfiles themselves per game
+
 Systemd files for various games installed into /opt/<gamename>. Put in /etc/systemd/system and run systemctl daemon-reload. 
 
 Then service <gamename> start/stop or systemctl enable <gamename> to start at boot. 
